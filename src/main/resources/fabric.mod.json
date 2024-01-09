@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "prometheus_exporter",
+  "version": "${version}",
+
+  "name": "Prometheus_Exporter",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/prometheus_exporter/icon.png",
+
+  "environment": "server",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
